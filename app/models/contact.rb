@@ -4,7 +4,13 @@ class Contact < ActiveRecord::Base
       validates :email, presence: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
+>>>>>>> development
+=======
+    
+=======
+>>>>>>> contact_form
 >>>>>>> development
 end
