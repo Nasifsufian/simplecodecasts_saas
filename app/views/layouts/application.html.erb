@@ -43,12 +43,17 @@
 </nav>
 <div class="container">
  <% flash.each do |key, value| %>
+<<<<<<< be019a502ba459e9ea519f2ca60138e11b920e5e
 
   <%= content_tag :div, value, class: "alert alert-#{key}" %>
   <% end %>
   
 
 
+=======
+ <%= content_tag :div, value, class: "alert alert-#{key}" %>
+ <% end %>
+>>>>>>> Added contacts form table and model
 <%= yield %>
 </div>
 </body>
