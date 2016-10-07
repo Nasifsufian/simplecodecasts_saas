@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
 
 
   belongs_to :plan
-
+has_one :profile
 
 
   #STRIPE 
