@@ -6,7 +6,6 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
     
-<<<<<<< be019a502ba459e9ea519f2ca60138e11b920e5e
     if @contact.save
       name = params[:contact][:name]
       email = params[:contact][:email]
@@ -25,9 +24,5 @@ class ContactsController < ApplicationController
   private
     def contact_params
       params.require(:contact).permit(:name, :email, :comments)
-=======
-    def create 
-       
->>>>>>> Added contacts form table and model
     end
 end
